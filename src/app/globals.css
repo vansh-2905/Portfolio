@@ -31,3 +31,48 @@ body {
     text-wrap: balance;
   }
 }
+
+@keyframes gradient-xy {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradient-xy {
+  animation: gradient-xy 6.5s ease infinite;
+  background-size: 200% 200%;
+}
+
+@keyframes easy-bounce {
+  0%, 100% {
+    transform: translateY(-28%);
+    animation-timing-function: cubic-bezier(0, 0, 0, 0);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0, 0);
+  }
+}
+
+@keyframes easy-bounce-rev {
+  0%, 100% {
+    transform: translateY(45%);
+    animation-timing-function: cubic-bezier(0, 0, 0, 0);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0, 0);
+  }
+}
+
+.animate-bounce-easy {
+  animation: easy-bounce 8s infinite;
+}
+
+.animate-bounce-easy-rev {
+  animation: easy-bounce-rev 12s infinite;
+}
+
