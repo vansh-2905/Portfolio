@@ -23,6 +23,14 @@ const projects = [
         git: "",
         src: project2 
     },
+    {
+        title: "URL Shortner",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat reprehenderit natus harum odio animi eius, maxime nostrum quae consequatur temporibus ex reiciendis unde dolorem aliquam accusamus, doloribus, molestiae rerum tempora",
+        devStack: "Node, Express, EJS, MongoDB, Git",
+        link: "",
+        git: "",
+        src: project3 
+    },
 ]
 
 const Portfolio = () => {
