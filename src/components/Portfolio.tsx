@@ -15,7 +15,8 @@ const projects = [
         devStack: "React, Motoko, JavaScript, npm, Git",
         link: "",
         git: "https://github.com/vansh-2905/Clash-Crypto-Token",
-        src: bit 
+        src: bit,
+        img: "freepik"
     },
     {
         title: "Short-URL",
@@ -23,7 +24,8 @@ const projects = [
         devStack: "HTML, CSS, Express, Node, Embedded JavaScript, MongoDB",
         link: "",
         git: "https://github.com/vansh-2905/Short-URL",
-        src: shortUrl 
+        src: shortUrl, 
+        img: "freepik"
     },
     {
         title: "Video Streaming Platform",
@@ -31,7 +33,8 @@ const projects = [
         devStack: "JavaScript, CSS, HTML, Node, React, Ffmpeg",
         link: "",
         git: "",
-        src: VideoImg 
+        src: VideoImg,
+        img: ""
     },
     {
         title: "Management Dashboard",
@@ -39,7 +42,8 @@ const projects = [
         devStack: "React, HTML, Tailwind, Sync Fusion",
         link: "https://dashboard-vansh-k.vercel.app/",
         git: "https://github.com/vansh-2905/Dashboard",
-        src: dashboard 
+        src: dashboard,
+        img: ""
     },
     {
         title: "Machine Learning Fire Detection System",
@@ -47,15 +51,17 @@ const projects = [
         devStack: "Python, Yolo, Pandas, Numpy, OpenCV",
         link: "",
         git: "https://github.com/vansh-2905/ML-fire-detection",
-        src: fireDetection 
+        src: fireDetection,
+        img: "freepik"
     },
     {
         title: "This website",
-        description: "I trained a highly accurate machine learning model for fire detection, achieving an impressive accuracy rate of over 98.2%. This model was designed to be seamlessly integrated with surveillance cameras, significantly enhancing fire monitoring and early detection capabilities. The integration process involved rigorous testing and optimization to ensure reliable performance in real-world scenarios, providing a robust solution for proactive fire safety measures.",
+        description: "",
         devStack: "NextJS, Tailwind, Framer Motion, HTML, CSS",
         link: "https://vansh-kapoor-seven.vercel.app/",
         git: "https://github.com/vansh-2905/Portfolio",
-        src: portfolioImg 
+        src: portfolioImg,
+        img: ""
     },
 ]
 
@@ -93,6 +99,12 @@ const Portfolio = () => {
                                 src = {project.src} 
                                 alt = {project.title} 
                                 className="h-[350px] w-[500px] object-cover border rounded-2xl border-gray-700"/>
+                            {project.img === "freepik" ? 
+                                    <a
+                                    className = "text-white/70 p-4"
+                                    href= "https://www.freepik.com/"    
+                                    >Image by designed by Freepik</a> : 
+                                    <p></p>}
                         </div>
 
                     </motion.div>
