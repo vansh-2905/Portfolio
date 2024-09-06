@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image";
 import { motion } from 'framer-motion';
-import project1 from "../assests/project.jpg";
+import VideoImg from "../assests/project.jpg";
 import project2 from "../assests/proj1.jpg";
 import project3 from "../assests/proj2.jpg";
 
@@ -12,24 +12,48 @@ const projects = [
         description: "I engineered a sophisticated Crypto Token leveraging advanced blockchain technology, complete with a nostalgic retro 90s’ style interface for buying, selling, and transferring tokens. This user-friendly page not only captured the aesthetic charm of the 90s but also facilitated the seamless processing of up to 10,000,000 tokens simultaneously. The system was designed to ensure high efficiency and security, providing users with a reliable and engaging platform for their cryptocurrency transactions.",
         devStack: "React, Motoko, JavaScript, npm, Git",
         link: "",
-        git: "",
-        src: project1 
+        git: "https://github.com/vansh-2905/Clash-Crypto-Token",
+        src: VideoImg 
     },
     {
-        title: "URL Shortner",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat reprehenderit natus harum odio animi eius, maxime nostrum quae consequatur temporibus ex reiciendis unde dolorem aliquam accusamus, doloribus, molestiae rerum tempora",
-        devStack: "Node, Express, EJS, MongoDB, Git",
+        title: "Short-URL",
+        description: "I leveraged a variety of Node libraries and deployed robust authentication mechanisms to construct a full-stack application. This application effectively reduces the size of URLs by up to 97% of their original length, ensuring efficient and secure URL management. The implementation involved optimizing algorithms and integrating advanced compression techniques, resulting in a highly efficient system that enhances user experience and operational performance.",
+        devStack: "HTML, CSS, Express, Node, Embedded JavaScript, MongoDB",
         link: "",
-        git: "",
+        git: "https://github.com/vansh-2905/Short-URL",
         src: project2 
     },
     {
-        title: "URL Shortner",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat reprehenderit natus harum odio animi eius, maxime nostrum quae consequatur temporibus ex reiciendis unde dolorem aliquam accusamus, doloribus, molestiae rerum tempora",
-        devStack: "Node, Express, EJS, MongoDB, Git",
+        title: "Video Streaming Platform",
+        description: "I developed a stand-alone video streaming platform utilizing agile methodologies to ensure rapid and iterative progress. By implementing advanced buffering techniques and optimizing data flow, I successfully minimized buffer time by up to 75%. This resulted in a significantly smoother and more enjoyable viewing experience for users, enhancing the platform’s overall performance and user satisfaction.",
+        devStack: "JavaScript, CSS, HTML, Node, React, Ffmpeg",
         link: "",
         git: "",
-        src: project3 
+        src: VideoImg 
+    },
+    {
+        title: "Management Dashboard",
+        description: "I constructed a comprehensive business dashboard featuring a variety of interactive graphs and charts. This tool significantly enhanced operational efficiency for business owners by up to 75%, providing real-time insights and analytics. The dashboard enabled users to make informed decisions quickly and effectively, streamlining their business processes and improving overall productivity.",
+        devStack: "React, HTML, Tailwind, Sync Fusion",
+        link: "https://dashboard-vansh-k.vercel.app/",
+        git: "https://github.com/vansh-2905/Dashboard",
+        src: project2 
+    },
+    {
+        title: "Machine Learning Fire Detection System",
+        description: "I trained a highly accurate machine learning model for fire detection, achieving an impressive accuracy rate of over 98.2%. This model was designed to be seamlessly integrated with surveillance cameras, significantly enhancing fire monitoring and early detection capabilities. The integration process involved rigorous testing and optimization to ensure reliable performance in real-world scenarios, providing a robust solution for proactive fire safety measures.",
+        devStack: "Python, Yolo, Pandas, Numpy, OpenCV",
+        link: "",
+        git: "https://github.com/vansh-2905/ML-fire-detection",
+        src: project2 
+    },
+    {
+        title: "This website",
+        description: "I trained a highly accurate machine learning model for fire detection, achieving an impressive accuracy rate of over 98.2%. This model was designed to be seamlessly integrated with surveillance cameras, significantly enhancing fire monitoring and early detection capabilities. The integration process involved rigorous testing and optimization to ensure reliable performance in real-world scenarios, providing a robust solution for proactive fire safety measures.",
+        devStack: "NextJS, Tailwind, Framer Motion, HTML, CSS",
+        link: "https://vansh-kapoor-seven.vercel.app/",
+        git: "https://github.com/vansh-2905/Portfolio",
+        src: project2 
     },
 ]
 
