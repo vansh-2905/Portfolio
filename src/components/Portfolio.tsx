@@ -9,7 +9,7 @@ import project3 from "../assests/proj2.jpg";
 const projects = [
     {
         title: "Clash Crypto Token with its Buy and Sell page",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat reprehenderit natus harum odio animi eius, maxime nostrum quae consequatur temporibus ex reiciendis unde dolorem aliquam accusamus, doloribus, molestiae rerum tempora",
+        description: "I engineered a sophisticated Crypto Token leveraging advanced blockchain technology, complete with a nostalgic retro 90s’ style interface for buying, selling, and transferring tokens. This user-friendly page not only captured the aesthetic charm of the 90s but also facilitated the seamless processing of up to 10,000,000 tokens simultaneously. The system was designed to ensure high efficiency and security, providing users with a reliable and engaging platform for their cryptocurrency transactions.",
         devStack: "React, Motoko, JavaScript, npm, Git",
         link: "",
         git: "",
@@ -57,7 +57,7 @@ const Portfolio = () => {
                             <p className="text-lg text-white/70 break-words p-4">{project.description}</p>
                             <p className="text-xl text-orange-400 font-semibold">{project.devStack}</p>
                             <div className="w-64 h-[1px] bg-gray-400 my-4">
-                                <a href={project.link} className="mr-6">Link</a>
+                                {project.link === "" ? <p/> : <a href={project.link} className="mr-6">Link</a>}
                                 <a href={project.git}>Git</a>
                             </div>
 
