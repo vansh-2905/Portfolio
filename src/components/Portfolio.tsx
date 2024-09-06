@@ -32,7 +32,7 @@ const projects = [
         description: "I developed a stand-alone video streaming platform utilizing agile methodologies to ensure rapid and iterative progress. By implementing advanced buffering techniques and optimizing data flow, I successfully minimized buffer time by up to 75%. This resulted in a significantly smoother and more enjoyable viewing experience for users, enhancing the platform’s overall performance and user satisfaction.",
         devStack: "JavaScript, CSS, HTML, Node, React, Ffmpeg",
         link: "",
-        git: "",
+        git: "https://github.com/vansh-2905/Video-Streaming",
         src: VideoImg,
         img: ""
     },
