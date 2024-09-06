@@ -23,15 +23,6 @@ const projects = [
         git: "",
         src: project2 
     },
-    {
-        title: "XYZ Project",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat reprehenderit natus harum odio animi eius, maxime nostrum quae consequatur temporibus ex reiciendis unde dolorem aliquam accusamus, doloribus, molestiae rerum tempora",
-        devStack: "C++, Java, Git",
-        link: "",
-        git: "",
-        src: project3
-    },    
-    
 ]
 
 const Portfolio = () => {
