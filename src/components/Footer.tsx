@@ -9,13 +9,13 @@ const Footer = () => {
             <h1 className='text-2xl font-bold'>Vansh Kapoor</h1>
 
             <div className='flex space-x-6 mt-4'>
-                <a href='#' className='hover:text-gray-300'>
+                <a href='https://www.linkedin.com/in/vansh-kapoor-b382561b2' className='hover:text-gray-300'>
                     <FaLinkedin size={24} />
                 </a>
-                <a href='#' className='hover:text-gray-300'>
+                <a href='https://github.com/vansh-2905' className='hover:text-gray-300'>
                     <FaGithub size={24} />
                 </a>
-                <a href='#' className='hover:text-gray-300'>
+                <a href='https://www.instagram.com/vanshkapoor_29._/' className='hover:text-gray-300'>
                     <FaInstagram size={24} />
                 </a>
             </div>
