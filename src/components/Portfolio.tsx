@@ -94,7 +94,7 @@ const Portfolio = () => {
                             </div>
 
                         </div>
-                        <div className="flex justify-center items-center">
+                        <div className="flex flex-col">
                             <Image 
                                 src = {project.src} 
                                 alt = {project.title} 
