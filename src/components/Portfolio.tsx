@@ -2,9 +2,11 @@
 import Image from "next/image";
 import { motion } from 'framer-motion';
 import VideoImg from "../assests/project.jpg";
-import project2 from "../assests/proj1.jpg";
-import project3 from "../assests/proj2.jpg";
-
+import portfolioImg from "../assests/portfolioImg.png";
+import bit from "../assests/bit.jpg";
+import shortUrl from "../assests/urlShortener.jpg";
+import dashboard from "../assests/dashboard.png";
+import fireDetection from "../assests/fireDetection.jpg";
 
 const projects = [
     {
@@ -13,7 +15,7 @@ const projects = [
         devStack: "React, Motoko, JavaScript, npm, Git",
         link: "",
         git: "https://github.com/vansh-2905/Clash-Crypto-Token",
-        src: VideoImg 
+        src: bit 
     },
     {
         title: "Short-URL",
@@ -21,7 +23,7 @@ const projects = [
         devStack: "HTML, CSS, Express, Node, Embedded JavaScript, MongoDB",
         link: "",
         git: "https://github.com/vansh-2905/Short-URL",
-        src: project2 
+        src: shortUrl 
     },
     {
         title: "Video Streaming Platform",
@@ -37,7 +39,7 @@ const projects = [
         devStack: "React, HTML, Tailwind, Sync Fusion",
         link: "https://dashboard-vansh-k.vercel.app/",
         git: "https://github.com/vansh-2905/Dashboard",
-        src: project2 
+        src: dashboard 
     },
     {
         title: "Machine Learning Fire Detection System",
@@ -45,7 +47,7 @@ const projects = [
         devStack: "Python, Yolo, Pandas, Numpy, OpenCV",
         link: "",
         git: "https://github.com/vansh-2905/ML-fire-detection",
-        src: project2 
+        src: fireDetection 
     },
     {
         title: "This website",
@@ -53,7 +55,7 @@ const projects = [
         devStack: "NextJS, Tailwind, Framer Motion, HTML, CSS",
         link: "https://vansh-kapoor-seven.vercel.app/",
         git: "https://github.com/vansh-2905/Portfolio",
-        src: project2 
+        src: portfolioImg 
     },
 ]
 
