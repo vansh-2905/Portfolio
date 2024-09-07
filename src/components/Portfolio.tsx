@@ -103,7 +103,7 @@ const Portfolio = () => {
                                     <a
                                     className = "text-white/70 p-4"
                                     href= "https://www.freepik.com/"    
-                                    >Image by designed by Freepik</a> : 
+                                    >Image designed by Freepik</a> : 
                                     <p></p>}
                         </div>
 
