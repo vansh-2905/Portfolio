@@ -28,8 +28,8 @@ const About = () => {
                             className="w-auto h-[130px]"
                         />
                         <div className="flex flex-col mt-4">
-                            <h2 className="text-2xl font-bold text-white/80">Vansh Kapoor</h2>
-                            <p className="text-lg text-white/70">I am a full-stack developer, building websites and softwares for both Web2 and Web3</p>
+                            <h2 className="text-2xl font-bold text-white">Vansh Kapoor</h2>
+                            <p className="text-lg text-white/80">I am a full-stack developer, building websites and softwares for both Web2 and Web3</p>
                         </div>
 
                     </div>
@@ -46,8 +46,8 @@ const About = () => {
                             className="w-auto h-[130px]"
                         />
                         <div className="flex flex-col mt-4">
-                            <h2 className="text-2xl font-bold text-white/80">Education</h2>
-                            <p className="text-lg text-white/70">Arizona State University - BSE Computer Science</p>
+                            <h2 className="text-2xl font-bold text-white">Education</h2>
+                            <p className="text-lg text-white/80">Arizona State University - BSE Computer Science</p>
                         </div>
 
                     </div>
@@ -64,8 +64,8 @@ const About = () => {
                             className="w-auto h-[130px]"
                         />
                         <div className="flex flex-col mt-4">
-                        <h2 className="text-2xl font-bold text-white/80">Currently Learning</h2>
-                            <ul className="text-lg text-white/70">
+                        <h2 className="text-2xl font-bold text-white">Currently Learning</h2>
+                            <ul className="text-lg text-white/80">
                                 <li>Artificial Intelligence</li>
                                 <li>Machine Learning</li>
                             </ul>
@@ -85,9 +85,9 @@ const About = () => {
                             className="w-auto h-[130px]"
                         />
                         <div className="flex flex-col mt-4 ml-3">
-                            <h2 className="text-2xl font-bold text-white/80">Experience</h2>
-                            <p className="text-lg text-white/70">Software Developer Intern- Kiwi Healthcare Pvt. Ltd.(2024) </p>
-                            <p className="text-lg text-white/70">Frontend Developer Intern- Remedo Clinitech Pvt. Ltd.(2023) </p>
+                            <h2 className="text-2xl font-bold text-white">Experience</h2>
+                            <p className="text-lg text-white/80">Software Developer Intern- Kiwi Healthcare Pvt. Ltd.(2024) </p>
+                            <p className="text-lg text-white/80">Frontend Developer Intern- Remedo Clinitech Pvt. Ltd.(2023) </p>
                         </div>
 
                     </div>
