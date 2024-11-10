@@ -19,7 +19,7 @@ export default function Home() {
         />
       </Head>
         
-      <div className="">
+      <div className="bg-black">
         <Navbar/>
         <Hero/>
         <About/>
