@@ -86,6 +86,7 @@ const About = () => {
                         />
                         <div className="flex flex-col mt-4 ml-3">
                             <h2 className="text-2xl font-bold text-white">Experience</h2>
+                            <p className="text-lg text-white/80">Software Development Eng. Intern- Amazon Web Services(2025) </p>
                             <p className="text-lg text-white/80">Software Developer Intern- Kiwi Healthcare Pvt. Ltd.(2024) </p>
                             <p className="text-lg text-white/80">Frontend Developer Intern- Remedo Clinitech Pvt. Ltd.(2023) </p>
                         </div>
